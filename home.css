@@ -324,7 +324,6 @@ font-size: 13px;
     height: auto;
     flex-shrink: 0;
 }
-/* ===== BANNER DOTS ===== */
 .banner-dots {
     position: absolute;
     bottom: 15px;
@@ -346,5 +345,6 @@ font-size: 13px;
 .banner-dot.active {
     background: #ff3f6c;
 }
+
 
 
