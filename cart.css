@@ -61,8 +61,6 @@ body {
     color: #ff3f6c;
     font-weight: bold;
 }
-
-/* Quantity */
 .qty {
     display: flex;
     align-items: center;
@@ -79,15 +77,12 @@ body {
     border-radius: 4px;
 }
 
-/* Remove */
 .remove-btn {
     background: transparent;
     border: none;
     color: red;
     cursor: pointer;
 }
-
-/* Total */
 .cart-summary {
     position: sticky;
     bottom: 0;
@@ -95,3 +90,4 @@ body {
     padding: 20px 30px;
     box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
 }
+
