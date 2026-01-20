@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Items | Myntra</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" href="item.css">
+</head>
+<body>
+
+<header>
+    <div class="menu-icon" id="menuBtn">
+        <span class="material-symbols-outlined">menu</span>
+    </div>
+    <div class="logo-container">
+        <img class="myntrahome" src="myntra_logo.webp" alt="Myntra">
+    </div>
+    <nav class="navbar">
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Kids</a>
+        <a href="#">Home & Living</a>
+        <a href="#">Beauty</a>
+        <a href="#">Studio <sup>New</sup></a>
+    </nav>
+    <div class="search-bar">
+        <span class="material-symbols-outlined search-icon">search</span>
+        <input class="search-input" placeholder="Search for products">
+    </div>
+    <div class="acttion">
+        <div class="acttion-container">
+            <span class="material-symbols-outlined">person</span>
+            <span class="action-name">Profile</span>
+        </div>
+
+        <div class="acttion-container">
+            <span class="material-symbols-outlined">favorite</span>
+            <span class="action-name">Wishlist</span>
+        </div>
+
+        <div class="acttion-container bag" onclick="goToCart()">
+            <span class="material-symbols-outlined">shopping_bag</span>
+            <span class="action-name">Bag</span>
+            <span class="cart-count" id="cartCount">0</span>
+        </div>
+    </div>
+
+</header>
+<div class="mobile-menu" id="mobileMenu">
+    <a href="#">Men</a>
+    <a href="#">Women</a>
+    <a href="#">Kids</a>
+    <a href="#">Home & Living</a>
+    <a href="#">Beauty</a>
+</div>
+
+<main class="item-container">
+
+    <div class="item-card">
+        <img src="Images/product/1.jpg">
+        <h3>Facewash</h3>
+        <p class="price">₹299</p>
+        <button onclick="addToCart(1,'Product 1',999,'Images/product/1.jpg')">
+            Add to Bag
+        </button>
+    </div>
+
+    <div class="item-card">
+        <img src="Images/product/2.jpg">
+        <h3>Keyboard</h3>
+        <p class="price">₹499</p>
+        <button onclick="addToCart(2,'Product 2',1499,'Images/product/2.jpg')">
+            Add to Bag
+        </button>
+    </div>
+
+    
+    <div class="item-card">
+        <img src="Images/product/3.jpg">
+        <h3>Headphone</h3>
+        <p class="price">₹14999</p>
+        <button onclick="addToCart(2,'Product 2',1499,'Images/product/.jpg')">
+            Add to Bag
+        </button>
+    </div>
+    
+    <div class="item-card">
+        <img src="Images/product/4.jpg">
+        <h3>Bunk of all camera</h3>
+        <p class="price">₹99</p>
+        <button onclick="addToCart(2,'Product 2',1499,'Images/product/2.jpg')">
+            Add to Bag
+        </button>
+    </div>
+    
+    <div class="item-card">
+        <img src="Images/product/5.jpg">
+        <h3>Toothbrush</h3>
+        <p class="price">₹199</p>
+        <button onclick="addToCart(2,'Product 2',1499,'Images/product/2.jpg')">
+            Add to Bag
+        </button>
+    </div>
+    
+    <div class="item-card">
+        <img src="Images/product/6.jpg">
+        <h3>Pepsodente</h3>
+        <p class="price">₹99</p>
+        <button onclick="addToCart(2,'Product 2',1499,'Images/product/2.jpg')">
+            Add to Bag
+        </button>
+    </div>
+    
+    <div class="item-card">
+        <img src="Images/product/7.jpg">
+        <h3>Mug</h3>
+        <p class="price">₹199</p>
+        <button onclick="addToCart(2,'Product 2',1499,'Images/product/2.jpg')">
+            Add to Bag
+        </button>
+    </div>
+    
+    <div class="item-card">
+        <img src="Images/product/8.jpg">
+        <h3>Robotic hand</h3>
+        <p class="price">₹14999</p>
+        <button onclick="addToCart(2,'Product 2',1499,'Images/product/2.jpg')">
+            Add to Bag
+        </button>
+    </div>
+    
+    <div class="item-card">
+        <img src="Images/product/9.jpg">
+        <h3>Iphone</h3>
+        <p class="price">₹149999</p>
+        <button onclick="addToCart(2,'Product 2',1499,'Images/product/2.jpg')">
+            Add to Bag
+        </button>
+    </div>
+    
+    <div class="item-card">
+        <img src="Images/product/10.jpg">
+        <h3>Headphone</h3>
+        <p class="price">₹1999</p>
+        <button onclick="addToCart(2,'Product 2',1499,'Images/product/2.jpg')">
+            Add to Bag
+        </button>
+    </div>
+    
+    <div class="item-card">
+        <img src="Images/product/11.jpg">
+        <h3>Earbuds
+        </h3>
+        <p class="price">₹1499</p>
+        <button onclick="addToCart(2,'Product 2',1499,'Images/product/2.jpg')">
+            Add to Bag
+        </button>
+    </div>
+
+
+</main>
+
+<script src="item.js"></script>
+</body>
+</html>
